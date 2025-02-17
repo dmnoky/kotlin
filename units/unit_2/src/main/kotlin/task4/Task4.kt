@@ -22,25 +22,15 @@ object Task4 {
     val discriminant = { a: Double, b: Double, c: Double -> b*b - 4*a*c }
 
     /** 4. Написать функциональный тип с методом, который принимает 2 числа и возвращает их сумму */
-    //val sum = { x: Int, y: Int -> x + y }
-
-    //fun sum(x: Int, y: Int) = x + y
-    //fun sum(x: Float, y: Float) = x + y
-
-    /*fun interface Summ<T : Number> { fun sum(x: T, y: T) : T }
-    val summ = Summ<Float> { x, y -> x + y }*/
-
-    interface Sum {
-        fun sum(x: Int, y: Int) : Int
-        fun sum(x: Float, y: Float) : Float
-        fun sum(x: Double, y: Double) : Double
+    fun interface Sum<T> {
+        fun sum(x: T, y: T) : T
     }
 
-    val sum = object : Sum {
-        override fun sum(x: Int, y: Int) : Int = x + y
-        override fun sum(x: Float, y: Float) : Float = x + y
-        override fun sum(x: Double, y: Double) : Double = x + y
-    }
+    val sumInt = Sum<Int> { x, y -> x + y }
+    val sumFloat = Sum<Float> { x, y -> x + y}
+    val sumDouble = Sum<Double> { x, y -> x + y}
+
+    //fun <I : Sum<T>, T> sum(call: I, x: T, y: T) : T = call.sum(x, y)
 
     fun start() {
         println("1. Написать функциональный тип с методом")
@@ -53,8 +43,10 @@ object Task4 {
         println("3. Дискриминант")
         println(discriminant(1.1, 21.2, 234.3))
         println("4. Написать функциональный тип с методом, который принимает 2 числа и возвращает их сумму")
-        sum.sum(1, 2)
-        sum.sum(1.0,1.1)
-        sum.sum(1.0f,1.1f)
+        //println(sum(sumInt, 1, 2))
+        println(sumInt.sum(1, 2))
+        println(sumFloat.sum(1.0f,1.1f))
+        println(sumDouble.sum(1.0,1.1))
+
     }
 }
