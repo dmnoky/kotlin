@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60c10008-a185-4dbd-9fd3-e0a731468c94" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ugMXPXIrRxu5WUt8uIq6KWx35o" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.Task4Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Task4Test.searchForFriendsDeadlockTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.Task4Test.searchForFriendsInDepth3UserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Task4Test.searchForFriendsInDepthTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Task4Test.searchForFriendsInWidthMoreUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Task4Test.searchForFriendsInWidthNotFoundTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Task4Test.searchForFriendsInWidthNotRepeatTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Task4Test.searchForFriendsInWidthOneUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Task4Test.searchForFriendsInWidthTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Task4Test.searchForFriendsInfiniteRecursiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Task4Test.tst.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Task4Test.tst1.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.BenchmarkRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Task1Kt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.Task3Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mainModule [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mainModule [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mainModule [org.codehaus.mojo:exec-maven-plugin:3.5.0:exec].executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.kotlinCompiler&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="task2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="task2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Task4Test">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mainModule" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task4Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4Test.searchForFriendsDeadlockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mainModule" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task4Test" />
+      <option name="METHOD_NAME" value="searchForFriendsDeadlockTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4Test.searchForFriendsInDepth3UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mainModule" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task4Test" />
+      <option name="METHOD_NAME" value="searchForFriendsInDepth3UserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4Test.searchForFriendsInWidthNotRepeatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mainModule" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task4Test" />
+      <option name="METHOD_NAME" value="searchForFriendsInWidthNotRepeatTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4Test.searchForFriendsInfiniteRecursiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mainModule" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task4Test" />
+      <option name="METHOD_NAME" value="searchForFriendsInfiniteRecursiveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Task4Test" />
+        <item itemvalue="JUnit.Task4Test.searchForFriendsInfiniteRecursiveTest" />
+        <item itemvalue="JUnit.Task4Test.searchForFriendsInDepth3UserTest" />
+        <item itemvalue="JUnit.Task4Test.searchForFriendsInWidthNotRepeatTest" />
+        <item itemvalue="JUnit.Task4Test.searchForFriendsDeadlockTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60c10008-a185-4dbd-9fd3-e0a731468c94" name="Changes" comment="" />
+      <created>1742665806925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742665806925</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
