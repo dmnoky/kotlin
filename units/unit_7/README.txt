@@ -23,3 +23,5 @@ UNIT_7
         • getCountTransportAndClientInfo_whereCountTransportGreaterThan2_orderByFIOAsc
     TransportServiceTest
         • findByClientId    --получение автомобилей по данным клиента
+
+P.S. Тесты не идельные (где то просто чтоб данных накидать в таблицу) и не всё ими покрыто.
