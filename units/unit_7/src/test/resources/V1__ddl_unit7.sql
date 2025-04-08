@@ -52,7 +52,7 @@ create table unit7.transport
     constraint transport_uk unique (gos_reg_num)
 );
 CREATE INDEX index_transport_gos_reg_num ON unit7.transport USING btree(gos_reg_num ASC NULLS LAST); --потенциально, должен часто юзаться в поиске
-CREATE INDEX index_transport_model_id ON unit7.transport USING btree(model_id ASC NULLS LAST); --потенциально, внешний ключ
+CREATE INDEX index_transport_model_id ON unit7.transport USING btree(model_id ASC NULLS LAST); --внешний ключ
 -- start M:M client:transport
 create table unit7.client_transport
 (
