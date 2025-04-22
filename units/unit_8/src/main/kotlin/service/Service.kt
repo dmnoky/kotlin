@@ -5,7 +5,7 @@ import javax.persistence.EntityManager
 
 interface Service {
     companion object {
-        /** Стартует транзакцию и всегда завершает сессию */
+        /** Стартует транзакцию и не завершает сессию */
         inline fun <T : EntityManager, R> T.newTransaction(block: (T) -> R): R {
             unwrap(Session::class.java).isDefaultReadOnly = false
             if (!transaction.isActive) transaction.begin()
@@ -19,7 +19,7 @@ interface Service {
             }
         }
 
-        /** Переводит сессию в readOnly и всегда завершает сессию */
+        /** Переводит сессию в readOnly */
         inline fun <T : EntityManager, R> T.noTransactionRO(block: (T) -> R): R {
             unwrap(Session::class.java).isDefaultReadOnly = true
             try {
