@@ -19,7 +19,10 @@ interface Service {
             }
         }
 
-        /** Переводит сессию в readOnly */
+        /** Переводит сессию в readOnly:
+        * Hibernate does not dirty-check the entity's simple properties or single-ended associations;
+        * Hibernate will not update simple properties or updatable single-ended associations;
+        * Hibernate will not update the version of the read-only entity if only simple properties or single-ended updatable associations are changed;*/
         inline fun <T : EntityManager, R> T.noTransactionRO(block: (T) -> R): R {
             unwrap(Session::class.java).isDefaultReadOnly = true
             try {
