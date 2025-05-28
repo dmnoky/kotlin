@@ -1,0 +1,37 @@
+###
+GET http://localhost:8080/client/some?id=95956376-5934-41b1-bfae-09b73e3ebe56
+Content-Type: application/json
+
+###
+POST http://localhost:8080/client
+Accept: application/json
+Content-Type: application/json
+
+{
+    "id": "95956376-5934-41b1-bfae-09b73e3ebe56",
+    "version": 1,
+    "lastName": "put2",
+    "firstName": "put1",
+    "middleName": "put1",
+    "city": "city"
+}
+
+###
+PUT http://localhost:8080/client
+Accept: application/json
+Content-Type: application/json
+
+{
+    "lastName": "put",
+    "firstName": "put",
+    "middleName": "middleName",
+    "city": "city"
+}
+
+###
+DELETE http://localhost:8080/client
+Content-Type: application/json
+
+###
+GET http://localhost:8080/client/all
+Content-Type: application/json
